@@ -80,7 +80,7 @@ function shuffleDeck() {
 
 function drawCards() {
     $("#cards").empty();
-    for(var i = 0; i < $('#numOfCards'); i++) {
+    for(var i = 0; i < $('select[name="#numOfCards"] option:selected').val(); i++) {
         cardDeck.shift().appendTo("#cards");
     }
 }
