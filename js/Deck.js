@@ -1,60 +1,12 @@
 /* global $ */
 
-var cardDeck = [];
+//Hold new instances of the deck.
+var cardDeck;
 
-function buildDeck() {
-    var img;
-    cardDeck = []; //Clear array
-    
-    img = $('<img />').attr({
-            'id': 'Aquarius',
-            'src': 'cards/horoscope/Aquarius.png',
-            'alt': 'Aquarius',
-            'title': 'Aquarius Card Image'
-    });
-    cardDeck.push(img);
-    
-    img = $('<img />').attr({
-            'id': 'Aries',
-            'src': 'cards/horoscope/Aries.png',
-            'alt': 'Aries',
-            'title': 'Aries Card Image'
-    });
-    cardDeck.push(img);
-    
-    img = $('<img />').attr({
-            'id': 'Cancer',
-            'src': 'cards/horoscope/Cancer.png',
-            'alt': 'Cancer',
-            'title': 'Cancer Card Image'
-    });
-    cardDeck.push(img);
-    
-    img = $('<img />').attr({
-            'id': 'Capricorn',
-            'src': 'cards/horoscope/Capricorn.png',
-            'alt': 'Capricorn',
-            'title': 'Capricorn Card Image'
-    });
-    cardDeck.push(img);
-    
-    img = $('<img />').attr({
-            'id': 'Gemini',
-            'src': 'cards/horoscope/Gemini.png',
-            'alt': 'Gemini',
-            'title': 'Gemini Card Image'
-    });
-    cardDeck.push(img);
-    
-    img = $('<img />').attr({
-            'id': 'Leo',
-            'src': 'cards/horoscope/Leo.png',
-            'alt': 'Leo',
-            'title': 'Leo Card Image'
-    });
-    cardDeck.push(img);
-}
+//Hold deck data pulled from JSON file.
+var cardData;
 
+//Randomly shuffles the cardDeck array.
 function shuffleDeck() {
   var currentIndex = cardDeck.length, temporaryValue, randomIndex;
 
@@ -72,17 +24,69 @@ function shuffleDeck() {
   }
 }
 
-function drawCards() {
+//Shifts card from cardDeck and sets it to website.
+function showCards() {
     $("#cards").empty();
     //cardDeck.shift().appendTo("#cards");
     for(var i = 0; i < $('select[id="numOfCards"] option:selected').val(); i++) {
-        $("<div />").attr({'id': "card" + i}).appendTo("#cards");
-        cardDeck.shift().appendTo("#card" + i);
+        //Draw card
+        var card = cardDeck.shift();
+        
+        //Build container
+        var cardContainer = $("<div>");
+        cardContainer.attr({
+            'id': "card" + i
+        });
+        cardContainer.appendTo("#cards");
+        
+        //Build image
+        var img = $("<img>");
+        img.attr({
+           "id":  card.name,
+            "src": card.image,
+            "title": card.name + " Image"
+        });
+        img.appendTo(cardContainer);
+        
+        var desc = $("<p>");
+        desc.html(card.description);
+        desc.appendTo(cardContainer);
     } 
 }
 
+//Grabs card data and stores it. Makes new copies of card data for cardDeck.
+function buildDeck() {
+    var def = $.Deferred();
+    if(cardData == null){
+        $.getJSON(
+            'cards/CardData.json', 
+            function(data) {
+                cardData = data;
+                cardDeck = Array.from(data);
+            }
+         ).done(
+            function(){
+                def.resolve();
+            }
+        );
+    } else {
+        cardDeck = Array.from(cardData);
+        def.resolve();
+    }
+    return def;
+}
+
+//Combines other functions into correct order.
+function drawCards() {
+    buildDeck().done(
+        function () {
+            shuffleDeck();
+            showCards();
+        }
+    );
+}
+
+//Set functions when document is ready.
 $(function () {
-    $("#drawButton").click(buildDeck);
-    $("#drawButton").click(shuffleDeck);
     $("#drawButton").click(drawCards);
 });

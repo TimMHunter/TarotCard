@@ -5,3 +5,7 @@
 #cards div {
     padding: 15px;
 }
+
+#cards div p {
+    text-align: center;
+}
