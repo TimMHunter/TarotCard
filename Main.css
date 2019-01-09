@@ -1,5 +1,62 @@
+body {
+    background-color: #ddd;
+}
+
+h1, h3 {
+    margin: 0;
+}
+
+h1 {
+    font-family: "Papyrus";
+    font-size: 60px;
+}
+
+h3, label, button, select {
+    font-family: Perpetua;
+}
+
+label, button, select {
+    font-size: 20px;
+}
+
+select {
+    margin-bottom: 10px;
+    width: 200px;
+}
+
+button {
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom, #fff, #eee);
+}
+
+#title {
+    padding: 15px;
+    width: 80%;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 20px;
+}
+
+#content{
+    margin: 0% 10%;
+    padding-top: 20px;
+    height: 100%;
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 20px;
+}
+
+#commands {
+    margin-bottom: 25px;
+}
+
 #cards {
     display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
 }
 
 #cards div {
