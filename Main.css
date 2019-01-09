@@ -1,0 +1,7 @@
+#cards {
+    display: flex;
+}
+
+#cards div {
+    padding: 15px;
+}

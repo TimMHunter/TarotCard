@@ -4,12 +4,13 @@ var cardDeck = [];
 
 function buildDeck() {
     var img;
+    cardDeck = []; //Clear array
+    
     img = $('<img />').attr({
             'id': 'Aquarius',
             'src': 'cards/horoscope/Aquarius.png',
             'alt': 'Aquarius',
-            'title': 'Aquarius Card Image',
-            'width': 250
+            'title': 'Aquarius Card Image'
     });
     cardDeck.push(img);
     
@@ -17,8 +18,7 @@ function buildDeck() {
             'id': 'Aries',
             'src': 'cards/horoscope/Aries.png',
             'alt': 'Aries',
-            'title': 'Aries Card Image',
-            'width': 250
+            'title': 'Aries Card Image'
     });
     cardDeck.push(img);
     
@@ -26,8 +26,7 @@ function buildDeck() {
             'id': 'Cancer',
             'src': 'cards/horoscope/Cancer.png',
             'alt': 'Cancer',
-            'title': 'Cancer Card Image',
-            'width': 250
+            'title': 'Cancer Card Image'
     });
     cardDeck.push(img);
     
@@ -35,8 +34,7 @@ function buildDeck() {
             'id': 'Capricorn',
             'src': 'cards/horoscope/Capricorn.png',
             'alt': 'Capricorn',
-            'title': 'Capricorn Card Image',
-            'width': 250
+            'title': 'Capricorn Card Image'
     });
     cardDeck.push(img);
     
@@ -44,8 +42,7 @@ function buildDeck() {
             'id': 'Gemini',
             'src': 'cards/horoscope/Gemini.png',
             'alt': 'Gemini',
-            'title': 'Gemini Card Image',
-            'width': 250
+            'title': 'Gemini Card Image'
     });
     cardDeck.push(img);
     
@@ -53,13 +50,9 @@ function buildDeck() {
             'id': 'Leo',
             'src': 'cards/horoscope/Leo.png',
             'alt': 'Leo',
-            'title': 'Leo Card Image',
-            'width': 250
+            'title': 'Leo Card Image'
     });
     cardDeck.push(img);
-    
-    shuffleDeck();
-    console.log(cardDeck);
 }
 
 function shuffleDeck() {
@@ -81,13 +74,15 @@ function shuffleDeck() {
 
 function drawCards() {
     $("#cards").empty();
-    cardDeck.shift().appendTo("#cards");
-    /*for(var i = 0; i < $('select[id="numOfCards"] option:selected').val(); i++) {
-        cardDeck.shift().appendTo("#cards");
-    } */
+    //cardDeck.shift().appendTo("#cards");
+    for(var i = 0; i < $('select[id="numOfCards"] option:selected').val(); i++) {
+        $("<div />").attr({'id': "card" + i}).appendTo("#cards");
+        cardDeck.shift().appendTo("#card" + i);
+    } 
 }
 
 $(function () {
-    $("#commands").submit(buildDeck);
-    $("#commands").submit(drawCards);
+    $("#drawButton").click(buildDeck);
+    $("#drawButton").click(shuffleDeck);
+    $("#drawButton").click(drawCards);
 });
