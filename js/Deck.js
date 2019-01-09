@@ -59,6 +59,7 @@ function buildDeck() {
     cardDeck.push(img);
     
     shuffleDeck();
+    console.log(cardDeck);
 }
 
 function shuffleDeck() {
