@@ -83,7 +83,7 @@
     },
     {
         "name": "Saggitarius",
-        "description": "Saggitarius Description",
+        "description": "Saggitarius is the 9th sign of the Zodiac.<br/><br/><b>Represents</b>: Adventure, Travel, Expansion, Honesty, Outspokenness, Wisdom<br/><br/><b>Positive Qualities</b>: Straightforward, Intellectual, Philosophical, Kind-Hearted<br/><br/><b>Negative Qualities</b>: Careless, Tactless, Impatient, Inconsistent, Over Confident",
         "type": "Zodiac",
         "terra": 3,
         "sol": 6,
@@ -93,7 +93,7 @@
     },
     {
         "name": "Scorpio",
-        "description": "Scorpio Description",
+        "description": "Scorpio is the 8th sign of the Zodiac.<br/><br/><b>Represents</b>: Intimacy, Sex, Secrecy, Power, Intensity, Obsession<br/><br/><b>Positive Qualities</b>: Focused, Brave, Balanced, Faithful, Ambitious, Intuitive<br/><br/><b>Negative Qualities</b>: Jealous, Secretive, Resentful, Manipulative.",
         "type": "Zodiac",
         "terra": 0,
         "sol": 3,
@@ -103,7 +103,7 @@
     },
     {
         "name": "Taurus",
-        "description": "Taurus Description",
+        "description": "Taurus is the 2nd sign of the Zodiac.<br/><br/><b>Represents</b>: Stability, Security, Elegance, Sensuality, Stubbornness, Persistence<br/><br/><b>Positive Qualities</b>: Generous, Dependable, Down to Earth, PAtient, Independent, Persistent<br/><br/><b>Negative Qualities</b>: Stubborn, Self-indulgent, Lazy, Materialistic, Possessive",
         "type": "Zodiac",
         "terra": 6,
         "sol": 3,
@@ -113,7 +113,7 @@
     },
     {
         "name": "Virgo",
-        "description": "Virgo Description",
+        "description": "Virgo is the 6th sign of the Zodiac.<br/><br/><b>Represents</b>: Health, Helpfulness, Order, Organization, Innocence, Purity<br/><br/><b>Positive Qualities</b>: Vigilant, Intelligent, Practical, Analytical, Reliable, Trustworthy, Modest, Perfectionist<br/><br/><b>Negative Qualities</b>: Overcritical, Fussy, Fastidious, Harsh, Conservative, Judgemental.",
         "type": "Zodiac",
         "terra": 6,
         "sol": 3,
