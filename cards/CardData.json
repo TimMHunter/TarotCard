@@ -13,7 +13,7 @@
     },
     {
         "name": "Aries",
-        "description": "Aries is the 1st sign of the Zodiac <br/> Represents: Willpower, Initiative, Determination, Passion, Beginnings, Self-Belief, Innocence <br/> Positive Qualities: Adventurous, Courageous, Versatile, Lively, Positive, Passionate <br/> Negative Qualities: Arrogant, Stubborn, Impulsive, Indiscipline, Confrontational ",
+        "description": "Aries is the 1st sign of the Zodiac <br/><br/> Represents: Willpower, Initiative, Determination, Passion, Beginnings, Self-Belief, Innocence <br/><br/> Positive Qualities: Adventurous, Courageous, Versatile, Lively, Positive, Passionate <br/><br/> Negative Qualities: Arrogant, Stubborn, Impulsive, Indiscipline, Confrontational ",
         "type": "Zodiac",
         "terra": 3,
         "sol": 6,
@@ -23,7 +23,7 @@
     },
     {
         "name": "Cancer",
-        "description": "Cancer Description",
+        "description": "Cancer is the 4th sign of the Zodaic.<br/><br/>Represents: Nurturing, Sensitivity, Emotions, Moodiness, Home, Family, Children, Femininity <br/><br/>Positive Qualities: Creative, Spontaneous, Faithful, Loving, Protective, Emotional <br/><br/>Negative Qualities: Moody, Pessimistic, Clingy, Overemotional, Suspicious ",
         "type": "Zodiac",
         "terra": 3,
         "sol": 0,
