@@ -51,7 +51,7 @@ img {
 }
 
 #content{
-    margin: 0% 10%;
+    margin: 0% 5%;
     padding-top: 20px;
     text-align: center;
     background-color: rgba(200, 200, 200, 0.8);
@@ -84,7 +84,8 @@ img {
     padding: 10px;
     overflow-y: hidden;
     height: 80px;
-    font-size: 1em;
+    max-width: 300px;
+    margin: auto;
 }
 
 #cards div p:hover {

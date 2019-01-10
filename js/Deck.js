@@ -79,14 +79,25 @@ function selectCards() {
     
     //Mode 1: Draw random cards from entire deck.
     if(selection == 1 || selection == 3 || selection == 8) {
+        var template = "";
         for(i = 0; i < selection; i++) {
+            template += (100 / selection) + "%";
             var card = cardDeck.shift();
             drawnDeck.push(card);
             showCard(card);
         } 
+        $("#cards").css("grid-template-columns", template);
+        if(selection == 8) {
+            $("#cards").css("font-size", "0.75em");
+        } else {
+            $("#cards").css("font-size", "1em");
+        }
     }
     //Mode 2: First 4 are Celestials, then random for the rest.
     if(selection == 12) {
+        $("#cards").css("grid-template-columns", "25% 25% 25% 25%");
+        $("#cards").css("font-size", "1em");
+        
         var celestials = cardDeck.filter(function(card) {return card.type == "Celestial";});
         var nonCelestials = cardDeck.filter(function(card) {return card.type != "Celestial";});
         
@@ -101,6 +112,9 @@ function selectCards() {
     }
     //Mode 3: First 8 are Chakras and the Serpent, then random for the rest.
     if(selection == 24) {
+        $("#cards").css("grid-template-columns", "12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%");
+        $("#cards").css("font-size", "0.75em");
+        
         var findList = ["Red", "Orange", "Yellow", "Green", "Blue", "Indigo", "Violet", "Serpent"];
         
         for(i = 0; i < findList.length; i++) {
