@@ -3,7 +3,7 @@
     
     {
         "name": "Aquarius",
-        "description": "Aquarius is the 11th sign of the Zodiac. <br/><br/> Represents: Friendliness, Eccentricity, Teamwork, Humanitarianism, Technology, Futuristic, Groups. <br/><br/> Positive Qualities: Friendly, Humanitarian, Intelligent, Creative, Independent, Loyal. <br/><br/> Negative Qualities: Unpredictable, Inconsistent, Detached, Stubborn, Aloof, Extremist.",
+        "description": "Aquarius is the 11th sign of the Zodiac. <br/><br/> <b>Represents</b>: Friendliness, Eccentricity, Teamwork, Humanitarianism, Technology, Futuristic, Groups. <br/><br/> <b>Positive Qualities</b>: Friendly, Humanitarian, Intelligent, Creative, Independent, Loyal. <br/><br/> <b>Negative Qualities</b>: Unpredictable, Inconsistent, Detached, Stubborn, Aloof, Extremist.",
         "type": "Zodiac",
         "terra": 3,
         "sol": 0,
@@ -13,7 +13,7 @@
     },
     {
         "name": "Aries",
-        "description": "Aries is the 1st sign of the Zodiac <br/><br/> Represents: Willpower, Initiative, Determination, Passion, Beginnings, Self-Belief, Innocence <br/><br/> Positive Qualities: Adventurous, Courageous, Versatile, Lively, Positive, Passionate <br/><br/> Negative Qualities: Arrogant, Stubborn, Impulsive, Indiscipline, Confrontational ",
+        "description": "Aries is the 1st sign of the Zodiac <br/><br/> <b>Represents</b>: Willpower, Initiative, Determination, Passion, Beginnings, Self-Belief, Innocence <br/><br/> <b>Positive Qualities</b>: Adventurous, Courageous, Versatile, Lively, Positive, Passionate <br/><br/> <b>Negative Qualities</b>: Arrogant, Stubborn, Impulsive, Indiscipline, Confrontational ",
         "type": "Zodiac",
         "terra": 3,
         "sol": 6,
@@ -23,7 +23,7 @@
     },
     {
         "name": "Cancer",
-        "description": "Cancer is the 4th sign of the Zodaic.<br/><br/>Represents: Nurturing, Sensitivity, Emotions, Moodiness, Home, Family, Children, Femininity <br/><br/>Positive Qualities: Creative, Spontaneous, Faithful, Loving, Protective, Emotional <br/><br/>Negative Qualities: Moody, Pessimistic, Clingy, Overemotional, Suspicious ",
+        "description": "Cancer is the 4th sign of the Zodaic.<br/><br/><b>Represents</b>: Nurturing, Sensitivity, Emotions, Moodiness, Home, Family, Children, Femininity <br/><br/><b>Positive Qualities</b>: Creative, Spontaneous, Faithful, Loving, Protective, Emotional <br/><br/><b>Negative Qualities</b>: Moody, Pessimistic, Clingy, Overemotional, Suspicious ",
         "type": "Zodiac",
         "terra": 3,
         "sol": 0,
@@ -33,7 +33,7 @@
     },
     {
         "name": "Capricorn",
-        "description": " Capricorn is the 10th sign of the Zodiac. <br/><br/> Represents: Ambition, Structure, Goals, Long-Term Plans, Prestige, Public Image/Acclaim <br/><br/> Positive Qualities: Practical, Ambitious, Wise, Disciplined, Patient, Cautious<br/><br/>Negative Qualities: Pessimistic, Stubborn, Shy. ",
+        "description": " Capricorn is the 10th sign of the Zodiac. <br/><br/> <b>Represents</b>: Ambition, Structure, Goals, Long-Term Plans, Prestige, Public Image/Acclaim <br/><br/> <b>Positive Qualities</b>: Practical, Ambitious, Wise, Disciplined, Patient, Cautious<br/><br/><b>Negative Qualities</b>: Pessimistic, Stubborn, Shy. ",
         "type": "Zodiac",
         "terra": 6,
         "sol": 0,
@@ -43,7 +43,7 @@
     },
     {
         "name": "Gemini",
-        "description": "Gemini is the 3rd sign of the Zodiac. <br/><br/> Represents: Communication, Collaboration, Synergy, Cleverness, Wittiness,  Inventiveness,  Ingenuity<br/><br/> Positive Qualities: Flexible, Versatile, Enthusiastic, Soft-Spoken, Witty, Intellectual <br/><br/>Negative Qualities: Inconsistent, Superficial, Indecisive, Directionless, Anxious ",
+        "description": "Gemini is the 3rd sign of the Zodiac. <br/><br/> <b>Represents</b>: Communication, Collaboration, Synergy, Cleverness, Wittiness,  Inventiveness,  Ingenuity<br/><br/> <b>Positive Qualities</b> Flexible, Versatile, Enthusiastic, Soft-Spoken, Witty, Intellectual <br/><br/><b>Negative Qualities</b>: Inconsistent, Superficial, Indecisive, Directionless, Anxious ",
         "type": "Zodiac",
         "terra": 0,
         "sol": 3,
@@ -53,7 +53,7 @@
     },
     {
         "name": "Leo",
-        "description": "Leo Description",
+        "description": "Leo is the 5th sign of the Zodiac.<br/><br/><b>Represents</b>: Passion, Romance, Expression, Drama, Playfulness, Courageous, Loyal<br/><br/><b>Positive Qualities</b>: Kind, Helpful, Energetic, Optimistic, Straightforward, Loyal<br/><br/><b>Negative Qualities</b>: Headstrong, Egoistic, Possessive, Dominating, Impatient, Arrogant",
         "type": "Zodiac",
         "terra": 0,
         "sol": 6,
