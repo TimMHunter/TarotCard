@@ -1,0 +1,258 @@
+
+[
+    
+    {
+        "name": "Aquarius",
+<<<<<<< HEAD
+        "description": "Aquarius Description",
+        "type": "Zodiac",
+        "terra": 3,
+        "sol": 0,
+        "luna": 3,
+        "mercurius": 6,
+        "image": "cards/zodiac/Aquarius.png"
+=======
+        "description": "Aquarius is the 11th sign of the Zodiac.
+        Represents: Friendliness, Eccentricity, Teamwork, Humanitarianism, Technology, Futuristic, Groups
+        Positive Qualities: Friendly, Humanitarian, Intelligent, Creative, Independent, Loyal
+        Negative Qualities: Unpredictable, Inconsistent, Detached, Stubborn, Aloof, Extremist.",
+        "image": "cards/horoscope/Aquarius.png"
+>>>>>>> 84707644a2c95176e46c84733b0d26220ce23ca7
+    },
+    {
+        "name": "Aries",
+        "description": "Aries Description",
+        "type": "Zodiac",
+        "terra": 3,
+        "sol": 6,
+        "luna": 0,
+        "mercurius": 3,
+        "image": "cards/zodiac/Aries.png"
+    },
+    {
+        "name": "Cancer",
+        "description": "Cancer Description",
+        "type": "Zodiac",
+        "terra": 3,
+        "sol": 0,
+        "luna": 6,
+        "mercurius": 3,
+        "image": "cards/zodiac/Cancer.png"
+    },
+    {
+        "name": "Capricorn",
+        "description": "Capricorn Description",
+        "type": "Zodiac",
+        "terra": 6,
+        "sol": 0,
+        "luna": 3,
+        "mercurius": 3,
+        "image": "cards/zodiac/Capricorn.png"
+    },
+    {
+        "name": "Gemini",
+        "description": "Gemini Description",
+        "type": "Zodiac",
+        "terra": 0,
+        "sol": 3,
+        "luna": 3,
+        "mercurius": 6,
+        "image": "cards/zodiac/Gemini.png"
+    },
+    {
+        "name": "Leo",
+        "description": "Leo Description",
+        "type": "Zodiac",
+        "terra": 0,
+        "sol": 6,
+        "luna": 3,
+        "mercurius": 3,
+        "image": "cards/zodiac/Leo.png"
+    },
+    {
+        "name": "Libra",
+        "description": "Libra Description",
+        "type": "Zodiac",
+        "terra": 3,
+        "sol": 3,
+        "luna": 0,
+        "mercurius": 6,
+        "image": "cards/zodiac/Libra.png"
+    },
+    {
+        "name": "Pisces",
+        "description": "Pisces Description",
+        "type": "Zodiac",
+        "terra": 3,
+        "sol": 3,
+        "luna": 6,
+        "mercurius": 0,
+        "image": "cards/zodiac/Pisces.png"
+    },
+    {
+        "name": "Saggitarius",
+        "description": "Saggitarius Description",
+        "type": "Zodiac",
+        "terra": 3,
+        "sol": 6,
+        "luna": 3,
+        "mercurius": 0,
+        "image": "cards/zodiac/Saggitarius.png"
+    },
+    {
+        "name": "Scorpio",
+        "description": "Scorpio Description",
+        "type": "Zodiac",
+        "terra": 0,
+        "sol": 3,
+        "luna": 6,
+        "mercurius": 3,
+        "image": "cards/zodiac/Scorpio.png"
+    },
+    {
+        "name": "Taurus",
+        "description": "Taurus Description",
+        "type": "Zodiac",
+        "terra": 6,
+        "sol": 3,
+        "luna": 3,
+        "mercurius": 0,
+        "image": "cards/zodiac/Taurus.png"
+    },
+    {
+        "name": "Virgo",
+        "description": "Virgo Description",
+        "type": "Zodiac",
+        "terra": 6,
+        "sol": 3,
+        "luna": 0,
+        "mercurius": 3,
+        "image": "cards/zodiac/Virgo.png"
+    },
+    
+    
+    {
+        "name": "Blue",
+        "description": "Blue Description",
+        "type": "Chakra",
+        "terra": 6,
+        "sol": 0,
+        "luna": 6,
+        "mercurius": 0,
+        "image": "cards/chakra/Blue.png"
+    },
+    {
+        "name": "Green",
+        "description": "Green Description",
+        "type": "Chakra",
+        "terra": 6,
+        "sol": 0,
+        "luna": 0,
+        "mercurius": 6,
+        "image": "cards/chakra/Green.png"
+    },
+    {
+        "name": "Indigo",
+        "description": "Indigo Description",
+        "type": "Chakra",
+        "terra": 0,
+        "sol": 0,
+        "luna": 6,
+        "mercurius": 6,
+        "image": "cards/chakra/Indigo.png"
+    },
+    {
+        "name": "Orange",
+        "description": "Orange Description",
+        "type": "Chakra",
+        "terra": 0,
+        "sol": 6,
+        "luna": 0,
+        "mercurius": 6,
+        "image": "cards/chakra/Orange.png"
+    },
+    {
+        "name": "Red",
+        "description": "Red Description",
+        "type": "Chakra",
+        "terra": 6,
+        "sol": 6,
+        "luna": 0,
+        "mercurius": 0,
+        "image": "cards/chakra/Red.png"
+    },
+    {
+        "name": "Violet",
+        "description": "Violet Description",
+        "type": "Chakra",
+        "terra": 0,
+        "sol": 0,
+        "luna": 0,
+        "mercurius": 0,
+        "image": "cards/chakra/Violet.png"
+    },
+    {
+        "name": "Yellow",
+        "description": "Yellow Description",
+        "type": "Chakra",
+        "terra": 0,
+        "sol": 6,
+        "luna": 6,
+        "mercurius": 0,
+        "image": "cards/chakra/Yellow.png"
+    },
+    
+    
+    {
+        "name": "Luna",
+        "description": "Luna Description",
+        "type": "Celestial",
+        "terra": 0,
+        "sol": 0,
+        "luna": 12,
+        "mercurius": 0,
+        "image": "cards/other/Luna.png"
+    },
+    {
+        "name": "Mercurius",
+        "description": "Mercurius Description",
+        "type": "Celestial",
+        "terra": 0,
+        "sol": 0,
+        "luna": 0,
+        "mercurius": 12,
+        "image": "cards/other/Mercurius.png"
+    },
+    {
+        "name": "Sol",
+        "description": "Sol Description",
+        "type": "Celestial",
+        "terra": 0,
+        "sol": 12,
+        "luna": 0,
+        "mercurius": 0,
+        "image": "cards/other/Sol.png"
+    },
+    {
+        "name": "Terra",
+        "description": "Terra Description",
+        "type": "Celestial",
+        "terra": 12,
+        "sol": 0,
+        "luna": 0,
+        "mercurius": 0,
+        "image": "cards/other/Terra.png"
+    },
+    
+    {
+        "name": "Serpent",
+        "description": "Serpent Description",
+        "type": "Serpent",
+        "terra": 3,
+        "sol": 3,
+        "luna": 3,
+        "mercurius": 3,
+        "image": "cards/other/Serpent.png"
+    }
+]
+
