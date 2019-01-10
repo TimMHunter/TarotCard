@@ -65,12 +65,11 @@ img {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    
 }
 
 #cards div {
     padding: 15px;
-    
+    height: 450px;
     -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 1s; /* Firefox < 16 */
         -ms-animation: fadein 1s; /* Internet Explorer */
@@ -83,13 +82,35 @@ img {
     background-color: rgba(255, 255, 255, 0.8);
     border-radius: 10px;
     padding: 10px;
+    overflow-y: hidden;
+    width: 206px;
+    height: 80px;
+    position: absolute;
+    
+    animation: shrink 1s;
 }
 
+#cards div p:hover {
+    height: 250px;
+    background-color: rgba(255, 255, 255, 1);
+    
+    animation: grow 1s;
+}
 
 
 @keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
+}
+
+@keyframes grow {
+    from { height: 50px; }
+    to   { height: 250px; }
+}
+
+@keyframes shrink {
+    from { height: 250px; }
+    to   { height: 80px; }
 }
 
 /* Firefox < 16 */
