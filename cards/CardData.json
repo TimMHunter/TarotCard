@@ -125,7 +125,7 @@
     
     {
         "name": "Blue",
-        "description": "Blue Description",
+        "description": "Blue is the Throat Chakra, known as Vishuddha<br/><br/><b>Represents</b>:Communication, Expression",
         "type": "Chakra",
         "terra": 6,
         "sol": 0,
@@ -135,7 +135,7 @@
     },
     {
         "name": "Green",
-        "description": "Green Description",
+        "description": "Green is the Heart Chakra, known as Anahat<br/><br/><b>Represents</b>: Love, Compassion, Empathy",
         "type": "Chakra",
         "terra": 6,
         "sol": 0,
@@ -145,7 +145,7 @@
     },
     {
         "name": "Indigo",
-        "description": "Indigo Description",
+        "description": "Indigo is the Third Eye Chakra, known as Ajnaa<br/><br/><b>Represents</b>: Intuition",
         "type": "Chakra",
         "terra": 0,
         "sol": 0,
@@ -155,7 +155,7 @@
     },
     {
         "name": "Orange",
-        "description": "Orange Description",
+        "description": "Orange is the Sacral Chakra, known as Svadhishthana.<br/><br/><b>Represents</b>:Connections, Pleasure, Creative Energy",
         "type": "Chakra",
         "terra": 0,
         "sol": 6,
@@ -165,7 +165,7 @@
     },
     {
         "name": "Red",
-        "description": "Red Description",
+        "description": "Red is the Root Chakra, known as Muladhara.<br/><br/><b>Represents</b>: Survival, Instinct, Safety, Grounding",
         "type": "Chakra",
         "terra": 6,
         "sol": 6,
@@ -175,7 +175,8 @@
     },
     {
         "name": "Violet",
-        "description": "Violet Description",
+        "description": "Violet is the Crown Chakra, known as Sahasrara.<br/><br/><b>Represents</b>: Spirituality, Connection with Higher Powers, Balance
+",
         "type": "Chakra",
         "terra": 0,
         "sol": 0,
@@ -185,7 +186,7 @@
     },
     {
         "name": "Yellow",
-        "description": "Yellow Description",
+        "description": "Yellow is the Solar Plexus Chakra, known as<br/><br/><b>Represents</b>: Emotions, Confidence, Control",
         "type": "Chakra",
         "terra": 0,
         "sol": 6,
@@ -197,7 +198,7 @@
     
     {
         "name": "Luna",
-        "description": "Luna Description",
+        "description": "Luna is the Artist. It represents the Moon, the element of Water as well as the aspects of Love, Emotions, Femininity (Yin), Creativity and Imagination.",
         "type": "Celestial",
         "terra": 0,
         "sol": 0,
@@ -207,7 +208,7 @@
     },
     {
         "name": "Mercurius",
-        "description": "Mercurius Description",
+        "description": "Mercurius is the Messenger. It represents the planet Mercury, the elemental of Air as well as the aspects of Knowledge, Change, Action, the Mind and Intellect or Philosophy.",
         "type": "Celestial",
         "terra": 0,
         "sol": 0,
@@ -217,7 +218,7 @@
     },
     {
         "name": "Sol",
-        "description": "Sol Description",
+        "description": "Sol is the Ruler. It represents our Sun, the element of Fire as well as the aspects of Passion, Willpower, Ambition, Masculinity (yang), Ego, Meaning and Spirituality and matters of Justice or Law.",
         "type": "Celestial",
         "terra": 0,
         "sol": 12,
@@ -227,7 +228,7 @@
     },
     {
         "name": "Terra",
-        "description": "Terra Description",
+        "description": "Terra is the Warrior, it is the Mother Earth we inhabit, it embodies the element of Earth and material matters, and the aspects of life including Wealth and Finances, Practicality and Work/Career.",
         "type": "Celestial",
         "terra": 12,
         "sol": 0,
@@ -238,7 +239,7 @@
     
     {
         "name": "Serpent",
-        "description": "Serpent Description",
+        "description": "The Serpent is a special card. When it appears, it means there is an opportunity, decision or knowledge to be gained. That knowledge may come at a cost, it may be very tempting and ulterior motives may be involved. Be wary of the Serpent, but do not be afraid. It also represents change and growth. ",
         "type": "Serpent",
         "terra": 3,
         "sol": 3,
