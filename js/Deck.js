@@ -69,7 +69,7 @@ function combineDecks() {
 
 //Picks which card mode based on selection.
 function selectCards() {
-    var i;
+    var i, card;
     
     //Clear card display
     $("#cards").empty();
@@ -82,7 +82,7 @@ function selectCards() {
         var template = "";
         for(i = 0; i < selection; i++) {
             template += (100 / selection) + "%";
-            var card = cardDeck.shift();
+            card = cardDeck.shift();
             drawnDeck.push(card);
             showCard(card);
         } 
@@ -110,23 +110,39 @@ function selectCards() {
             showCard(nonCelestials.shift());
         }
     }
-    //Mode 3: First 8 are Chakras and the Serpent, then random for the rest.
+    
     if(selection == 24) {
-        $("#cards").css("grid-template-columns", "12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%");
-        $("#cards").css("font-size", "0.75em");
+        var mode = $('select[id="mode"] option:selected').val();
         
-        var findList = ["Red", "Orange", "Yellow", "Green", "Blue", "Indigo", "Violet", "Serpent"];
-        
-        for(i = 0; i < findList.length; i++) {
-            var findCard = cardDeck.find(function(card) {return card.name == findList[i];});
-            showCard(findCard);
+        //Mode 3, version 1: First 8 are Chakras and the Serpent, then random for the rest.
+        if(mode == 1){
+            $("#cards").css("grid-template-columns", "12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%");
+            $("#cards").css("font-size", "0.75em");
+
+            var findList = ["Red", "Orange", "Yellow", "Green", "Blue", "Indigo", "Violet", "Serpent"];
+
+            for(i = 0; i < findList.length; i++) {
+                var findCard = cardDeck.find(function(card) {return card.name == findList[i];});
+                showCard(findCard);
+            }
+
+            var remaining = cardDeck.filter(function(card){ return !((card.type == "Chakra") || (card.type == "Serpent"));});
+            shuffleDeck(remaining);
+            for(i = 0; i < selection - findList.length; i++) {
+                showCard(remaining.shift());
+            }  
         }
-        
-        var remaining = cardDeck.filter(function(card){ return !((card.type == "Chakra") || (card.type == "Serpent"));});
-        shuffleDeck(remaining);
-        for(i = 0; i < selection - findList.length; i++) {
-            showCard(remaining.shift());
-        }  
+        //Mode 3, version 2: All random cards in a 6x4 pattern.
+        else if(mode == 2) {
+            $("#cards").css("grid-template-columns", "16.6% 16.6% 16.6% 16.6% 16.6% 16.6%");
+            $("#cards").css("font-size", "0.75em");
+            
+            for(i = 0; i < selection; i++) {
+                card = cardDeck.shift();
+                drawnDeck.push(card);
+                showCard(card);
+            } 
+        }
     }
 }
 
@@ -174,7 +190,19 @@ function drawCards() {
     }
 }
 
+//Toggle for 24 card selection mode.
+function toggleMode() {
+    var selection = $('select[id="numOfCards"] option:selected').val();
+    
+    if(selection == 24) {
+        $("#mode").show();
+    } else {
+        $("#mode").hide();
+    }
+}
+
 //Set functions when document is ready.
 $(function () {
     $("#drawButton").click(drawCards);
+    $("#numOfCards").on("change", toggleMode);
 });
