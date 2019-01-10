@@ -13,7 +13,7 @@
     },
     {
         "name": "Aries",
-        "description": "Aries Description",
+        "description": "Aries is the 1st sign of the Zodiac <br/> Represents: Willpower, Initiative, Determination, Passion, Beginnings, Self-Belief, Innocence <br/> Positive Qualities: Adventurous, Courageous, Versatile, Lively, Positive, Passionate <br/> Negative Qualities: Arrogant, Stubborn, Impulsive, Indiscipline, Confrontational ",
         "type": "Zodiac",
         "terra": 3,
         "sol": 6,
