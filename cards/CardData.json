@@ -3,7 +3,7 @@
     
     {
         "name": "Aquarius",
-        "description": "Aquarius is the 11th sign of the Zodiac. <br/> Represents: Friendliness, Eccentricity, Teamwork, Humanitarianism, Technology, Futuristic, Groups. <br/> Positive Qualities: Friendly, Humanitarian, Intelligent, Creative, Independent, Loyal. <br/> Negative Qualities: Unpredictable, Inconsistent, Detached, Stubborn, Aloof, Extremist.",
+        "description": "Aquarius is the 11th sign of the Zodiac. <br/><br/> Represents: Friendliness, Eccentricity, Teamwork, Humanitarianism, Technology, Futuristic, Groups. <br/><br/> Positive Qualities: Friendly, Humanitarian, Intelligent, Creative, Independent, Loyal. <br/><br/> Negative Qualities: Unpredictable, Inconsistent, Detached, Stubborn, Aloof, Extremist.",
         "type": "Zodiac",
         "terra": 3,
         "sol": 0,
@@ -33,7 +33,7 @@
     },
     {
         "name": "Capricorn",
-        "description": "Capricorn Description",
+        "description": " Capricorn is the 10th sign of the Zodiac. <br/><br/> Represents: Ambition, Structure, Goals, Long-Term Plans, Prestige, Public Image/Acclaim <br/><br/> Positive Qualities: Practical, Ambitious, Wise, Disciplined, Patient, Cautious<br/><br/>Negative Qualities: Pessimistic, Stubborn, Shy. ",
         "type": "Zodiac",
         "terra": 6,
         "sol": 0,
@@ -43,7 +43,7 @@
     },
     {
         "name": "Gemini",
-        "description": "Gemini Description",
+        "description": "Gemini is the 3rd sign of the Zodiac. <br/><br/> Represents: Communication, Collaboration, Synergy, Cleverness, Wittiness,  Inventiveness,  Ingenuity<br/><br/> Positive Qualities: Flexible, Versatile, Enthusiastic, Soft-Spoken, Witty, Intellectual <br/><br/>Negative Qualities: Inconsistent, Superficial, Indecisive, Directionless, Anxious ",
         "type": "Zodiac",
         "terra": 0,
         "sol": 3,
