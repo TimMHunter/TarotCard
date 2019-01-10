@@ -104,7 +104,7 @@ img {
 }
 
 @keyframes grow {
-    from { height: 50px; }
+    from { height: 80px; }
     to   { height: 250px; }
 }
 
