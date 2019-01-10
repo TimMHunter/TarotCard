@@ -3,7 +3,10 @@
     
     {
         "name": "Aquarius",
-        "description": "Aquarius Description",
+        "description": "Aquarius is the 11th sign of the Zodiac.
+        Represents: Friendliness, Eccentricity, Teamwork, Humanitarianism, Technology, Futuristic, Groups
+        Positive Qualities: Friendly, Humanitarian, Intelligent, Creative, Independent, Loyal
+        Negative Qualities: Unpredictable, Inconsistent, Detached, Stubborn, Aloof, Extremist.",
         "image": "cards/horoscope/Aquarius.png"
     },
     {
